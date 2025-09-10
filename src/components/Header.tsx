@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X, MapPin } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Homestays', href: 'homestays.xalleria.co.ke' },
-    { name: 'Hotels', href: 'hotels.xalleria.co.ke' },
-    { name: 'Events', href: 'events.xalleria.co.ke' },
-    { name: 'Air Tickets', href: 'air-tickets.xalleria.co.ke' },
-    { name: 'Taxi Booking', href: 'taxi-booking.xalleria.co.ke' },
-    { name: 'Safaris', href: 'safaris.xalleria.co.ke' },
-    { name: 'Insurance', href: 'insurance.xalleria.co.ke' },
+    { name: 'Homestays', href: 'https://homestays.xalleria.com' },
+    { name: 'Hotels', href: 'https://hotels.xalleria.com' },
+    { name: 'Events', href: 'https://events.xalleria.com' },
+    { name: 'Air Tickets', href: 'https://air-tickets.xalleria.com' },
+    { name: 'Taxi Booking', href: 'https://taxi-booking.xalleria.com' },
+    { name: 'Safaris', href: 'https://safaris.xalleria.com' },
+    { name: 'Insurance', href: 'https://insurance.xalleria.com' },
   ];
 
   return (
