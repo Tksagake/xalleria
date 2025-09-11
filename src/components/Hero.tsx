@@ -80,7 +80,16 @@ const Hero = () => {
                     <div className="text-2xl mb-2">🦁</div>
                     <div className="font-medium">Safaris</div>
                   </div>
+                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer">
+                    <div className="text-2xl mb-2">🚗</div>
+                    <div className="font-medium">Taxi Booking</div>
+                  </div>
+                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer">
+                    <div className="text-2xl mb-2">⛺️</div>
+                    <div className="font-medium">Events</div>
+                  </div>
                 </div>
+
               </div>
             </div>
           </div>
