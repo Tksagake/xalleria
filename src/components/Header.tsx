@@ -5,7 +5,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Homestays', href: 'https://homestays.xalleria.com' },
+    { name: 'Homestays', href: 'https://stays.xalleria.com' },
     { name: 'Hotels', href: 'https://hotels.xalleria.com' },
     { name: 'Events', href: 'https://events.xalleria.com' },
     { name: 'Air Tickets', href: 'https://air-tickets.xalleria.com' },
