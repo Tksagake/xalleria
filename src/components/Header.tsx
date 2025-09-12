@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, MapPin } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <MapPin className="h-8 w-8 text-blue-600" />
+            <img src="/logo.png" alt="Xalleria Logo" className="h-8 w-12" />
             <span className="text-2xl font-bold text-gray-900">Xalleria</span>
           </div>
 

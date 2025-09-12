@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Mail, Phone, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
@@ -19,7 +18,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
-              <MapPin className="h-8 w-8 text-blue-400" />
+              <img src="/logo.png" alt="Xalleria Logo" className="h-8 w-12" />
               <span className="text-2xl font-bold">Xalleria</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
