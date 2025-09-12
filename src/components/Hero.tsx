@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight, Star } from 'lucide-react';
 
 const Hero = () => {
@@ -27,9 +26,9 @@ const Hero = () => {
               Adventures
             </h1>
             
-            <p className="text-xl text-blue-100 leading-relaxed max-w-lg">
-              Book everything you need for your perfect journey - from cozy homestays to thrilling safaris, 
-              all in one trusted platform.
+           <p className="text-xl text-blue-100 leading-relaxed max-w-lg">
+              Discover stays, flights, safaris, and more – all with exclusive deals and trusted hosts, 
+              tailored to make every journey seamless and unforgettable.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -82,7 +81,7 @@ const Hero = () => {
                   </div>
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer">
                     <div className="text-2xl mb-2">🚗</div>
-                    <div className="font-medium">Taxi Booking</div>
+                    <div className="font-medium">Taxi</div>
                   </div>
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer">
                     <div className="text-2xl mb-2">⛺️</div>

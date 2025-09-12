@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow all search engines and AI bots
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: Yandex
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: facebookexternalhit
+Allow: /
+
+Sitemap: https://www.xalleria.com/sitemap.xml
