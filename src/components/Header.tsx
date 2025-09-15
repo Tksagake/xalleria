@@ -8,10 +8,11 @@ const Header = () => {
     { name: 'Homestays', href: 'https://stays.xalleria.com' },
     { name: 'Hotels', href: 'https://hotels.xalleria.com' },
     { name: 'Events', href: 'https://events.xalleria.com' },
-    { name: 'Air Tickets', href: 'https://air-tickets.xalleria.com' },
-    { name: 'Taxi Booking', href: 'https://taxi-booking.xalleria.com' },
+    { name: 'Flight Tickets', href: 'https://air-tickets.xalleria.com' },
+    { name: 'Taxixa', href: 'https://taxi-booking.xalleria.com' },
     { name: 'Safaris', href: 'https://safaris.xalleria.com' },
-    { name: 'Insurance', href: 'https://insurance.xalleria.com' },
+    { name: 'Travel Insurance', href: 'https://insurance.xalleria.com' },
+    { name: 'Gift Shop', href:'https://shop.xalleria.com' },
   ];
 
   return (
@@ -70,9 +71,7 @@ const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors duration-200 font-medium mt-4 mx-3">
-                Book Now
-              </button>
+              
             </nav>
           </div>
         )}

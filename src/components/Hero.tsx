@@ -32,13 +32,13 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="group bg-yellow-500 text-blue-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-yellow-400 transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl">
+              <button className="group bg-yellow-500 text-blue-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-yellow-400 transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl" onClick={() => window.location.href = 'https://stays.xalleria.com'}>
                 <span>Start Exploring</span>
                 <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-800 transition-all duration-200">
-                Watch Demo
-              </button>
+             {/* <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-blue-800 transition-all duration-200">
+                Watch Demo 
+              </button>   */}
             </div>
             
             <div className="flex items-center space-x-8 text-blue-100">
@@ -63,29 +63,37 @@ const Hero = () => {
               <div className="space-y-6">
                 <h3 className="text-2xl font-semibold">Quick Book</h3>
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer">
+                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://stays.xalleria.com'}>
                     <div className="text-2xl mb-2">🏠</div>
                     <div className="font-medium">Homestays</div>
                   </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer">
+                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://hotels.xalleria.com'}>
                     <div className="text-2xl mb-2">🏨</div>
                     <div className="font-medium">Hotels</div>
                   </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer">
+                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://flights.xalleria.com'}>
                     <div className="text-2xl mb-2">✈️</div>
                     <div className="font-medium">Flights</div>
                   </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer">
+                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://insurance.xalleria.com'}>
                     <div className="text-2xl mb-2">🦁</div>
                     <div className="font-medium">Safaris</div>
                   </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer">
+                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://taxi-booking.xalleria.com'}>
                     <div className="text-2xl mb-2">🚗</div>
-                    <div className="font-medium">Taxi</div>
+                    <div className="font-medium">Taxixa</div>
                   </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer">
+                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://events.xalleria.com'}>
                     <div className="text-2xl mb-2">⛺️</div>
                     <div className="font-medium">Events</div>
+                  </div>
+                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://insurance.xalleria.com'}>
+                    <div className="text-2xl mb-2">🛡️</div>
+                    <div className="font-medium">Insurance</div>
+                  </div>
+                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://shop.xalleria.com'}>
+                    <div className="text-2xl mb-2">🎁</div>
+                    <div className="font-medium">Gift Shop</div>
                   </div>
                 </div>
 

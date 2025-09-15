@@ -2,8 +2,8 @@ import { MapPin, Mail, Phone, Facebook, Twitter, Instagram, Linkedin } from 'luc
 
 const Footer = () => {
   const serviceLinks = [
-    'Homestays', 'Hotels', 'Events', 'Air Tickets', 
-    'Taxi Booking', 'Safaris', 'Insurance'
+    'Homestays', 'Hotels', 'Events', 'Flight Tickets', 
+    'Taxixa', 'Safaris', 'Travel Insurance'
   ];
 
   const quickLinks = [
