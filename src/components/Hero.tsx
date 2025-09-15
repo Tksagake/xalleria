@@ -58,44 +58,84 @@ const Hero = () => {
           </div>
 
           {/* Visual Element */}
-          <div className="relative">
+            <div className="relative">
             <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 border border-white border-opacity-20">
               <div className="space-y-6">
-                <h3 className="text-2xl font-semibold">Quick Book</h3>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://stays.xalleria.com'}>
-                    <div className="text-2xl mb-2">🏠</div>
-                    <div className="font-medium">Homestays</div>
-                  </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://hotels.xalleria.com'}>
-                    <div className="text-2xl mb-2">🏨</div>
-                    <div className="font-medium">Hotels</div>
-                  </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://flights.xalleria.com'}>
-                    <div className="text-2xl mb-2">✈️</div>
-                    <div className="font-medium">Flights</div>
-                  </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://insurance.xalleria.com'}>
-                    <div className="text-2xl mb-2">🦁</div>
-                    <div className="font-medium">Safaris</div>
-                  </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://taxi-booking.xalleria.com'}>
-                    <div className="text-2xl mb-2">🚗</div>
-                    <div className="font-medium">Taxixa</div>
-                  </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://events.xalleria.com'}>
-                    <div className="text-2xl mb-2">⛺️</div>
-                    <div className="font-medium">Events</div>
-                  </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://insurance.xalleria.com'}>
-                    <div className="text-2xl mb-2">🛡️</div>
-                    <div className="font-medium">Insurance</div>
-                  </div>
-                  <div className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer" onClick={() => window.location.href = 'https://shop.xalleria.com'}>
-                    <div className="text-2xl mb-2">🎁</div>
-                    <div className="font-medium">Gift Shop</div>
-                  </div>
-                </div>
+              <h3 className="text-2xl font-semibold">Quick Book</h3>
+              <div className="grid grid-cols-2 gap-4">
+                <a
+                className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
+                href="https://stays.xalleria.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <div className="text-2xl mb-2">🏠</div>
+                <div className="font-medium">Homestays</div>
+                </a>
+                <a
+                className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
+                href="https://hotels.xalleria.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <div className="text-2xl mb-2">🏨</div>
+                <div className="font-medium">Hotels</div>
+                </a>
+                <a
+                className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
+                href="https://flights.xalleria.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <div className="text-2xl mb-2">✈️</div>
+                <div className="font-medium">Flights</div>
+                </a>
+                <a
+                className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
+                href="https://insurance.xalleria.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <div className="text-2xl mb-2">🦁</div>
+                <div className="font-medium">Safaris</div>
+                </a>
+                <a
+                className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
+                href="https://taxi-booking.xalleria.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <div className="text-2xl mb-2">🚗</div>
+                <div className="font-medium">Taxixa</div>
+                </a>
+                <a
+                className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
+                href="https://events.xalleria.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <div className="text-2xl mb-2">⛺️</div>
+                <div className="font-medium">Events</div>
+                </a>
+                <a
+                className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
+                href="https://insurance.xalleria.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <div className="text-2xl mb-2">🛡️</div>
+                <div className="font-medium">Insurance</div>
+                </a>
+                <a
+                className="bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
+                href="https://shop.xalleria.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <div className="text-2xl mb-2">🎁</div>
+                <div className="font-medium">Gift Shop</div>
+                </a>
+              </div>
 
               </div>
             </div>
