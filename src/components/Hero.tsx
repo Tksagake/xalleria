@@ -34,9 +34,11 @@ const Hero = () => {
             </h1>
             
            <p className="text-xl text-blue-100 leading-relaxed max-w-lg">
-              Discover stays, flights, safaris, and more – all with exclusive deals and trusted hosts, 
-              tailored to make every journey seamless and unforgettable.
-            </p>
+  Discover and book everything for your next trip — from hotels and homestays to flights, safaris, taxi rides, events, travel insurance and gifts — all on one multi-service travel platform. 
+   <br />  Use powerful search and filters to compare real-time availability, prices and reviews; reserve instantly with secure payments and instant confirmations; unlock members-only deals and loyalty rewards;  
+   <br />   Available across dozens of countries, our platform brings trusted hosts, curated safaris, flight options, event listings and a convenient gift shop together for seamless end-to-end travel planning.
+</p>
+
             
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="group bg-yellow-500 text-blue-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-yellow-400 transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl" onClick={() => window.location.href = 'https://stays.xalleria.com'}>
