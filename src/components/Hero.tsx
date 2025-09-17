@@ -26,7 +26,7 @@ const Hero = () => {
               <span className="text-xs font-medium ml-2">Trusted by 50,000+ travelers</span>
             </div>
             
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-4xl font-bold leading-tight">
               Your Gateway to <br />
               <span className="text-yellow-400">Unforgettable</span> Adventures
             </h1>
