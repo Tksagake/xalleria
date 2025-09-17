@@ -68,8 +68,13 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-blue-400 mt-0.5" />
                 <div>
-                  <p className="text-gray-400">info@xalleria.com</p>
-                  
+                  <p
+                  className="text-gray-400 select-none pointer-events-none"
+                  style={{ userSelect: 'none' }}
+                  aria-hidden="true"
+                  >
+                  info[at]xalleria[dot]com
+                  </p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
