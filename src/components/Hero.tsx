@@ -33,11 +33,10 @@ const Hero = () => {
               Adventures
             </h1>
             
-           <p className="text-xl text-blue-100 leading-relaxed max-w-lg">
-  Discover and book everything for your next trip — from hotels and homestays to flights, safaris, taxi rides, events, travel insurance and gifts — all on one multi-service travel platform. 
-   <br />  Use powerful search and filters to compare real-time availability, prices and reviews; reserve instantly with secure payments and instant confirmations; unlock members-only deals and loyalty rewards;  
-   <br />   Available across dozens of countries, our platform brings trusted hosts, curated safaris, flight options, event listings and a convenient gift shop together for seamless end-to-end travel planning.
-</p>
+            <p className="text-xl text-blue-100 leading-relaxed max-w-lg">
+            Explore, Plan, and Book your next adventure seamlessly with Xalleria, a  multi-service travel platform, offering hotels, homestays, flights, safaris, taxi rides, events, travel insurance, and gifts
+              all in one place. Available across dozens of countries, our platform brings trusted hosts, curated safaris, flight options, event listings and a convenient gift shop together for seamless end-to-end travel planning.
+            </p>
 
             
             <div className="flex flex-col sm:flex-row gap-4">
