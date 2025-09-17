@@ -22,7 +22,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <img src="/logo.png" alt="Xalleria Logo" className="h-12 w-16" />
-            <span className="text-2xl font-bold text-blue-700">Xalleria</span>
+            <span className="text-2xl font-bold text-blue-600">Xalleria</span>
           </div>
 
           {/* Desktop Navigation */}
