@@ -27,8 +27,8 @@ const Hero = () => {
             </div>
             
             <h1 className="text-3xl sm:text-4xl lg:text-4xl font-bold leading-tight">
-              Your Gateway to <br />
-              <span className="text-yellow-400">Unforgettable</span> Adventures
+              Your World on <br />
+              <span className="text-yellow-400">One</span> Platform
             </h1>
             
             <p className="text-sm text-blue-100 leading-relaxed max-w-lg">
