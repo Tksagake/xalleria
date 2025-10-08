@@ -2,8 +2,14 @@ import { MapPin, Mail, Phone, Facebook, Twitter, Instagram, Linkedin } from 'luc
 
 const Footer = () => {
   const serviceLinks = [
-    'Homestays', 'Hotels', 'Events', 'Flight Tickets', 
-    'Taxixa', 'Safaris', 'Travel Insurance'
+    { name: 'Homestays', href: 'https://stays.xalleria.com' },
+    { name: 'Hotels', href: 'https://hotels.xalleria.com' },
+    { name: 'Events', href: 'https://events.xalleria.com' },
+    { name: 'Flights', href: 'https://air-tickets.xalleria.com' },
+    // { name: 'Taxixa', href: 'https://taxi-booking.xalleria.com' },
+    { name: 'Safaris', href: 'https://safaris.xalleria.com' },
+    // { name: 'Travel Insurance', href: 'https://insurance.xalleria.com' },
+    { name: 'Gift Shop', href:'https://shop.xalleria.com' },
   ];
 
   const quickLinks = [
@@ -38,9 +44,9 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-6">Our Services</h3>
             <ul className="space-y-3">
               {serviceLinks.map((link) => (
-                <li key={link}>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
-                    {link}
+                <li key={link.name}>
+                  <a href={link.href} className="text-gray-400 hover:text-white transition-colors duration-200">
+                    {link.name}
                   </a>
                 </li>
               ))}
