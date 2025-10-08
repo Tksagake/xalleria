@@ -84,7 +84,7 @@ const Footer = () => {
                   style={{ userSelect: 'none' }}
                   aria-hidden="true"
                   >
-                  info@xalleria.com
+                  hello@xalleria.co.ke
                   </p>
                 </div>
               </div>
