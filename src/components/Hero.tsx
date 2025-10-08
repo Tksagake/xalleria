@@ -82,6 +82,7 @@ const Hero = () => {
                     <div className="text-xl mb-1">🏨</div>
                     <div className="font-medium text-sm">Hotels</div>
                   </a>
+                  {/* 
                   <a
                     className="bg-white bg-opacity-20 rounded-lg p-3 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
                     href="https://flights.xalleria.com"
@@ -91,15 +92,17 @@ const Hero = () => {
                     <div className="text-xl mb-1">✈️</div>
                     <div className="font-medium text-sm">Flights</div>
                   </a>
+                  */}
                   <a
                     className="bg-white bg-opacity-20 rounded-lg p-3 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
-                    href="https://insurance.xalleria.com"
+                    href="https://safaris.xalleria.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <div className="text-xl mb-1">🦁</div>
                     <div className="font-medium text-sm">Safaris</div>
                   </a>
+                  {/* 
                   <a
                     className="bg-white bg-opacity-20 rounded-lg p-3 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
                     href="https://taxi-booking.xalleria.com"
@@ -109,6 +112,7 @@ const Hero = () => {
                     <div className="text-xl mb-1">🚗</div>
                     <div className="font-medium text-sm">Taxixa</div>
                   </a>
+                  */}
                   <a
                     className="bg-white bg-opacity-20 rounded-lg p-3 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
                     href="https://events.xalleria.com"
@@ -118,6 +122,7 @@ const Hero = () => {
                     <div className="text-xl mb-1">⛺️</div>
                     <div className="font-medium text-sm">Events</div>
                   </a>
+                  {/* 
                   <a
                     className="bg-white bg-opacity-20 rounded-lg p-3 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
                     href="https://insurance.xalleria.com"
@@ -127,6 +132,7 @@ const Hero = () => {
                     <div className="text-xl mb-1">🛡️</div>
                     <div className="font-medium text-sm">Insurance</div>
                   </a>
+                  */}
                   <a
                     className="bg-white bg-opacity-20 rounded-lg p-3 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
                     href="https://shop.xalleria.com"
