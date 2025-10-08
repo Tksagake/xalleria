@@ -82,17 +82,17 @@ const Hero = () => {
                     <div className="text-xl mb-1">🏨</div>
                     <div className="font-medium text-sm">Hotels</div>
                   </a>
-                  {/* 
+                
                   <a
                     className="bg-white bg-opacity-20 rounded-lg p-3 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
-                    href="https://flights.xalleria.com"
+                    href="https://air-tickets.xalleria.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <div className="text-xl mb-1">✈️</div>
                     <div className="font-medium text-sm">Flights</div>
                   </a>
-                  */}
+                 
                   <a
                     className="bg-white bg-opacity-20 rounded-lg p-3 hover:bg-opacity-30 transition-all duration-200 cursor-pointer block"
                     href="https://safaris.xalleria.com"
