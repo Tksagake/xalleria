@@ -45,7 +45,12 @@ const Footer = () => {
             <ul className="space-y-3">
               {serviceLinks.map((link) => (
                 <li key={link.name}>
-                  <a href={link.href} className="text-gray-400 hover:text-white transition-colors duration-200">
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors duration-200"
+                  >
                     {link.name}
                   </a>
                 </li>
@@ -79,7 +84,7 @@ const Footer = () => {
                   style={{ userSelect: 'none' }}
                   aria-hidden="true"
                   >
-                  info[at]xalleria[dot]com
+                  info@xalleria.com
                   </p>
                 </div>
               </div>
