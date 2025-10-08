@@ -8,10 +8,10 @@ const Header = () => {
     { name: 'Homestays', href: 'https://stays.xalleria.com' },
     { name: 'Hotels', href: 'https://hotels.xalleria.com' },
     { name: 'Events', href: 'https://events.xalleria.com' },
-    { name: 'Flight Tickets', href: 'https://air-tickets.xalleria.com' },
+    // { name: 'Flight Tickets', href: 'https://air-tickets.xalleria.com' },
     { name: 'Taxixa', href: 'https://taxi-booking.xalleria.com' },
     { name: 'Safaris', href: 'https://safaris.xalleria.com' },
-    { name: 'Travel Insurance', href: 'https://insurance.xalleria.com' },
+    // { name: 'Travel Insurance', href: 'https://insurance.xalleria.com' },
     { name: 'Gift Shop', href:'https://shop.xalleria.com' },
   ];
 
